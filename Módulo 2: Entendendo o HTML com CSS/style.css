@@ -1,0 +1,67 @@
+h1 { 
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+a {
+    color: green;
+    height: auto;
+}
+
+img {
+    width: 200px;
+}
+
+li {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* Id */
+#titulo {
+    color: wheat;
+    background-color: rebeccapurple;
+    color: rgb(2, 255, 187);
+    background-color: #ffffff;
+}
+
+/* Class */
+.texto {
+    font-size: 12px;
+    color: red;
+}
+
+/* Seleção de varios elementos de uma vez só */
+#titulo,
+.texto {
+    font-size: 12px;
+}
+
+/* dentro dos elementos ol vai colocar nos elemtendos li */
+ol li {
+    color: palevioletred
+}
+/* tamanho, tipo e cor */
+/* solid, dotted, dashed, double, groove etc... */
+p {
+    border: 5px dotted black;
+}
+
+a {
+    border-top: 20px groove #ffffff;
+}
+
+h3 {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+div {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+    border: 3px solid darkblue;
+    overflow: hidden;
+}
