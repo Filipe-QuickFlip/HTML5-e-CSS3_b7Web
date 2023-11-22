@@ -1,0 +1,27 @@
+/* com o border-box ele remove tamanho do objeto para a soma do conteudo, bordar e padding ficar o tamanho completo definido pelo width e heigth*/
+* {
+    box-sizing: border-box;
+}
+
+/* remove espaçamento externo */
+body{
+    margin: 0;
+}
+
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+a:hover {
+    text-decoration: underline;
+}
