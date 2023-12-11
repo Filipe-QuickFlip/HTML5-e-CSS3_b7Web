@@ -1,0 +1,134 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container flex_row">
+            <p>Gmail</p>
+            <p>Imagens</p>
+            <input type="checkbox" id="menu-toggle">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <img src="assets/images/profile.jpg" alt="" class="profile-image">
+        </div>
+    </header>
+
+    <section>
+
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #google-container {
+            text-align: center;
+        }
+
+        #search-box {
+            display: flex;
+            align-items: center;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+            width: 600px;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #search-input {
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            flex: 1;
+        }
+
+        #search-icon {
+            padding: 12px;
+            color: #555;
+        }
+
+        #microphone-icon {
+            padding: 12px;
+            border-left: 1px solid #dfe1e5;
+            cursor: pointer;
+        }
+
+        #google-logo {
+            width: 92px;
+            height: 30px;
+            margin: 20px 0;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            font-size: 14px;
+            margin: 0 10px;
+            color: #555;
+            text-decoration: none;
+        }
+
+        #language {
+            margin-top: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="google-container">
+        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <div id="search-box">
+            <div id="search-icon">&#128269;</div>
+            <input type="text" id="search-input" placeholder="Pesquisar no Google">
+            <div id="microphone-icon">&#127908;</div>
+        </div>
+        <div id="buttons">
+            <a href="#" class="button">Pesquisa Google</a>
+            <a href="#" class="button">Estou com sorte</a>
+        </div>
+        <div id="language">Google oferecido em: <a href="#" style="color: #555; text-decoration: none;">English</a></div>
+    </div>
+</body>
+</html>
